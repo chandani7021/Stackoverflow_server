@@ -12,8 +12,8 @@ import translationRoutes from "./routes/translation.js";
 import dotenv from 'dotenv';
 
 
-// const allowedOrigins = ['https://stack-overflow-clone-by-chandani.netlify.app'];
-const allowedOrigins = ['http://localhost:3000'];
+const allowedOrigins = ['https://stack-overflow-clone-by-chandani.netlify.app'];
+//const allowedOrigins = ['http://localhost:3000'];
 const app = express();
 dotenv.config();
 app.use(bodyParser.json());
